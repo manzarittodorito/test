@@ -1,0 +1,34 @@
+
+#include<iostream>
+using namespace std;
+
+
+
+ void  salary ( int & );
+
+      int main()
+     {
+
+        int z =30000;
+
+         cout<<"z before  call "
+              << z <<endl;
+
+          salary(z);
+
+          cout << "z after call "
+          << z << endl;
+
+         system("pause");
+          return 0;
+
+        }
+
+      void salary(int & salary )
+        {
+         salary = salary + (salary *.20);
+
+         }
+         //PASSING BY REFERENCE
+         // THE VALUE OF X IS CHANGED BECAUSE
+         // & MEANS THE ACTUAL MEMORY CONTENT
