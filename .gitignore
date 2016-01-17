@@ -2,9 +2,7 @@
 #include<iostream>
 using namespace std;
 
-
-
- void  salary ( int & );
+void  salary ( int & );
 
       int main()
      {
